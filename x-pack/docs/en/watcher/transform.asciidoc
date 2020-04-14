@@ -31,7 +31,7 @@ and one as part of the definition of the `my_webhook` action.
 [source,js]
 --------------------------------------------------
 {
-  "trigger" : { ...}
+  "trigger" : { ... },
   "input" : { ... },
   "condition" : { ... },
   "transform" : { <1>
@@ -50,7 +50,7 @@ and one as part of the definition of the `my_webhook` action.
       	"path" : "/notify/{{ctx.watch_id}}"
       }
     }
-  ]
+  }
 }
 --------------------------------------------------
 // NOTCONSOLE
